@@ -18,6 +18,7 @@ class CashRegister
   def apply_discount
     if self.discount 
       self.total -= self.total * self.discount/100
+    end 
   end
   
   def void_last_transaction
